@@ -1,4 +1,18 @@
 
+para restaurar base de datos con dump.sql
+
+Para cargar la base de datos completa con el superusuario ya creado:
+
+* primero Clonar el repositorio:
+
+* segundo crear la base vacía en pgAdmin: eva4_gfrg_japr
+
+* tercero restaurar el dump
+
+ejecutar:
+
+psql -U postgres -d eva4_gfrg_japr < dump.sql
+
 
 
 Usuario: admin1
